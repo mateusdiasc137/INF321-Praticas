@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+</head>
+
+<body>
+    <header>
+        <h1>Loja do Mateus</h1>
+        <p>Seja bem vindo a minha loja. Aqui você vai encontrar os produtos com a melhor qualidade de todo o mercado
+            nacional</p>
+    </header>
+
+    <header>
+        <h1>Produtos</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Produtos Disponíveis</h2>
+            <div class="produto">
+                <img src="redmi_note_14.webp" alt="imagem do redmi note 14">
+                <h3>Xiaomi Redmi Note 14 256gb 8gb Dual Sim - Global Cor Verde-claro</h3>
+                <p>R$1.397,48</p>
+                <p><a
+                        href="https://www.mercadolivre.com.br/xiaomi-redmi-note-14-256gb-8gb-dual-sim-global-cor-verde-claro/p/MLB50587373?pdp_filters=item_id%3AMLB6810979928&from=gshop&matt_tool=33167885&matt_word=&matt_source=google&matt_campaign_id=22127560717&matt_ad_group_id=172644202239&matt_match_type=&matt_network=g&matt_device=c&matt_creative=728942948133&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735125422&matt_product_id=MLB50587373-product&matt_product_partition_id=2492482076102&matt_target_id=pla-2492482076102&cq_src=google_ads&cq_cmp=22127560717&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22127560717&gclid=CjwKCAjwzNTUBhAjEiwA7zcvWj7IeD0H_9mxiHM33zhRvQ3cPsB0U97If0eisEIgfLCXX3hyFamwcxoCnQkQAvD_BwE">Mais
+                        Detalhes</a></p>
+            </div>
+            <div class="produto">
+                <img src="macbook.webp" alt="imagem de um MacBook air apple 15 polegadas">
+                <h3>MacBook Air Apple 15" Chip M5, CPU de 10 Núcleos, GPU de 10 Núcleos, Neural Engine de 16 Núcleos,
+                    512GB, Meia-Noite - MDVH4BZ/A</h3>
+                <p>R$12.894,49</p>
+                <p><a
+                        href="https://www.kabum.com.br/produto/1014731/macbook-air-apple-15-chip-m5-cpu-de-10-nucleos-gpu-de-10-nucleos-neural-engine-de-16-nucleos-512gb-meia-noite-mdvh4bz-a?gclsrc=aw.ds&utm_id=22422868251&gad_source=1&gad_campaignid=22422868251&gclid=CjwKCAjwzNTUBhAjEiwA7zcvWvS0d0KjkoT2WoibAAKaOvrA-rq9gFumaOYei3y0cm9cLSVRocuQMxoCjgwQAvD_BwE">Mais
+                        Detalhes</a></p>
+            </div>
+            <div class="produto">
+                <img src="copo.jpg" alt="copo Stanley">
+                <h3>Stanley - Copo Térmico para Cerveja, 473ml, para Bebidas Quentes ou Frias, Black 2.0</h3>
+                <p>R$99,00</p>
+                <p><a
+                        href="https://www.amazon.com.br/Stanley-T%C3%A9rmico-Cerveja-Bebidas-Quentes/dp/B0GC94RH4S/ref=asc_df_B0GC94RH4S?mcid=23f5ee45221e3cecb4d3916fde92f775&tag=googleshopp00-20&linkCode=df0&hvadid=805189955675&hvpos=&hvnetw=g&hvrand=16862073574229099198&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9252516&hvtargid=pla-2477135350742&hvocijid=16862073574229099198-B0GC94RH4S-&hvexpln=0&language=pt_BR&th=1">Mais
+                        Detalhes</a></p>
+            </div>
+        </section>
+        <section>
+            <h2>Cadastrar Produto</h2>
+            <form action="/produtos" method="post">
+                <div>
+                    <label for="nome">Nome do Produto:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="preco">Preço:</label>
+                    <input type="number" name="preco" id="preco">
+                </div>
+                <div>
+                    <label for="link">Link do Produto</label>
+                    <input type="url" name="link" id="link">
+                </div>
+                <div>
+                    <label for="imagem">Imagem do Produto:</label>
+                    <input type="file" name="imagem" id="imagem">
+                </div>
+                <button type="submit">cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><em>Criado por Mateus Dias</em></p>
+    </footer>
+</body>
+
+</html>
