@@ -9,7 +9,7 @@ As práticas estão organizadas em pastas por atividade para facilitar a navega�
 | Prática | Descrição | Links |
 |---|---|---|
 | Prática 01 | Desenvolvimento Front-End — HTML | [Parte 1](pratica01/parte01) · [Parte 2](pratica01/parte02) |
-| Prática 02 | Em breve | — |
+| Prática 02 | Desenvolvimento Front-End — CSS | [Pratica](pratica02) |
 | Prática 03 | Em breve | — |
 
 > As práticas futuras serão adicionadas seguindo a mesma organização.
