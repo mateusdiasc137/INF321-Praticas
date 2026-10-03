@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>LojaWeb</h1>
+    <h2>Nossos Produtos</h2>
+    <search>
+        <form id="search-form" class="search-form">
+            <input type="search" id="search-input" placeholder="Digite um produto...">
+            <button type="submit" id="search-button">buscar</button>
+        </form>
+    </search>
+
+    <div id="notificacao-carrinho" aria-live="polite"></div>
+
+    <div id="container-produtos">
+        <div class="produto-card">
+            <img src="macbook.webp" alt="notebook">
+            <h3>Notebook</h3>
+            <p>R$ 5.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="redmi_note_14.webp" alt="celular">
+            <h3>Celular</h3>
+            <p>R$ 3.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="tablet.png" alt="tablet">
+            <h3>Tablet</h3>
+            <p>R$ 1.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="macbook.webp" alt="notebook">
+            <h3>Notebook</h3>
+            <p>R$ 5.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="redmi_note_14.webp" alt="celular">
+            <h3>Celular</h3>
+            <p>R$ 3.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="tablet.png" alt="tablet">
+            <h3>Tablet</h3>
+            <p>R$ 1.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="macbook.webp" alt="notebook">
+            <h3>Notebook</h3>
+            <p>R$ 5.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="redmi_note_14.webp" alt="celular">
+            <h3>Celular</h3>
+            <p>R$ 3.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+        <div class="produto-card">
+            <img src="tablet.png" alt="tablet">
+            <h3>Tablet</h3>
+            <p>R$ 1.999,00</p>
+            <button class="buy-button">comprar</button>
+        </div>
+    </div>
+
+    <div>
+        <form id="contato-form" class="contato-form" novalidate>
+            <h2>Fale Conosco</h2>
+            <label for="name-box">Nome</label>
+            <input type="text" id="name-box" required aria-describedby="nome-erro" placeholder="Digite seu nome...">
+            <span id="nome-erro"></span>
+            <label for="email-box">E-mail</label>
+            <input type="email" id="email-box" required aria-describedby="email-erro" placeholder="Digite seu email...">
+            <span id="email-erro"></span>
+            <label for="msg-box">Mensagem</label>
+            <textarea id="msg-box" required aria-describedby="mensagem-erro" placeholder="Digite sua mensagem..." rows="4" cols="30"></textarea>
+            <span id="mensagem-erro"></span>
+            <button type="submit" id="enviar-msg">Enviar Mensagem</button>
+            <p id="contato-sucesso" class="oculto" role="status"></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
